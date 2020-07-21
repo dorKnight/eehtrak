@@ -15,7 +15,7 @@ var timeLeft = 10;
         doSomething();
       } else {
         elem.style.top="12%";
-        elem.style.left="40%";
+        elem.style.left= timeLeft<10 ?"40%":"35%";
         elem.style.fontSize = "50px";
         elem.innerHTML = timeLeft;
         timeLeft--;
