@@ -28,10 +28,10 @@ function doSomething(){
   document.getElementById("container1").style.display = "none";
   document.getElementById("cont").style.display = "block";
   document.getElementById("container2").style.display = "block";
-
 }
 function video(){
   aud.pause();
   document.getElementById("container2").style.display = "none";
   document.getElementById("vid").style.bottom = "0%";
+  document.getElementById("play").play();
 }
