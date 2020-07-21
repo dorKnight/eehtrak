@@ -33,5 +33,5 @@ function video(){
   aud.pause();
   document.getElementById("container2").style.display = "none";
   document.getElementById("vid").style.bottom = "0%";
-  document.getElementById("play").play();
+  // document.getElementById("play").play();
 }
