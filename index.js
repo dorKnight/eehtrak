@@ -1,10 +1,13 @@
 var aud = new Audio('audio/aud1.mp4');
+var timerId;
 function audio(){
   aud.play();
 var timeLeft = 10;
     var elem = document.getElementById('some');
-
-    var timerId = setInterval(countdown, 1000);
+    if(timerId){
+      return;
+    }
+    timerId = setInterval(countdown, 1000);
 
     function countdown() {
       if (timeLeft == -1) {
