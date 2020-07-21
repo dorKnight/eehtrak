@@ -1,0 +1,162 @@
+h1{
+  font-family: 'Oleo Script', cursive !important;
+  font-weight: bold;
+  font-size: 50px !important;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background: #FF4E50;
+  background: -webkit-linear-gradient(to left, #F9D423, #FF4E50);
+  background: linear-gradient(to left, #F9D423, #FF4E50);
+
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+
+
+}
+body {
+  background: url('../images/gif7.gif') no-repeat center center fixed;
+  background-size: 100%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+#container1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+  display: flex;
+}
+#some{
+
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+
+    background-size: 100%;
+    -webkit-background-clip: text
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.b{
+  position: relative;
+}
+#cont{
+    background-image: url('../images/gif13.gif');
+    background-size: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+#container2{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+.t{
+  position: relative;
+  display: block;
+
+}
+#vid{
+  bottom:  100vh;
+  transition: all 1s cubic-bezier(0.31, 0.77, 0.47, 0.46);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h{
+  position: relative;
+  display: block;
+}
+.a{
+  width: 100%;
+  text-align:inherit;
+  display: flex;
+  justify-content: center;
+
+}
+.button p {
+  position: absolute;
+  top: 20%;
+  left: 19%;
+}
+.button{
+  position: relative;
+}
+.v{
+  border: 5px groove white;
+  border-radius: 5px;
+
+
+}
+
+@media (max-width:480px){
+        .c {
+          width: 50%;
+          height: 50%;
+        }
+        .v {
+          width: 320px;
+
+        }
+        .h{
+          width: 140%;
+          height: 140%;
+          margin-top: 50%;
+
+        }
+
+    }
+    @media (min-width: 480px) and (max-width:1000px){
+      .c{
+        width:50%;
+        height:50%;
+      }
+      .h{
+        width: 140%;
+        height: 140%;
+        margin-top: 25%;
+
+      }
+      .v{
+        width: 720px;
+      }
+    }
+    @media (min-width:1000px){
+      .c {
+        width: 25%;
+        height: 25%;
+      }
+      .h{
+        width: 50%;
+        height: 50%;
+        margin-top: 10%;
+      }
+      .v{
+        width: 1080px;
+      }
+    }
