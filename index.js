@@ -1,4 +1,4 @@
-var aud = new Audio('audio/aud2.mp4');
+var aud = new Audio('audio/aud3.mp4');
 var timerId;
 function audio(){
   aud.play();
